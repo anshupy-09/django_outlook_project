@@ -43,7 +43,7 @@ Through this you will be able to login with outlook account
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-project.git
+   git clone https://github.com/anshupy-09/django_outlook_project.git
    cd outlook 
 
 
