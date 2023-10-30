@@ -1,0 +1,15 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+<div class="text-center">
+    <h2 style="color: #007BFF;">Welcome to Home Page</h2>
+    <p style="font-size: 20px;">Hello, {{ user.first_name }}!</p>
+    <p style="font-size: 16px;">Your Username: {{ user }}</p>
+
+    <a class="btn btn-dark" href="{% url 'socialaccount_connections' %}" style="margin-top: 20px;">Settings</a>
+
+    {% if not user.is_authenticated %}
+        <a href="{% url 'signin' %}" style="color: #007BFF; text-decoration: underline; font-size: 16px;">Sign in</a>
+    {% endif %}
+</div>
+{% endblock %}
