@@ -52,15 +52,22 @@ Through this you will be able to login with outlook account
 
 4. Go to the URL 
    4.1: http://localhost:8000/home/
+   
    4.2: Click on the Sign in on the upper signin
+   
    4.3: Click on the Microsoft Graph
+   
    4.4: Using the Sign in with Microsoft Graph Click continue
+   
    4.5: Signin in your Microsoft outlook account
 
 
-5. check the Scaling in the Kubernetes
+6. check the Scaling in the Kubernetes
+   
    5.1 Go to the outlook/deployment
-   5.2 Kubectl apply -f django_deployment  
+   
+   5.2 Kubectl apply -f django_deployment
+    
    5.3 kubectl apply -f postgres 
 
 
